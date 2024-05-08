@@ -1,0 +1,123 @@
+:root {
+    --dark: #16191c;
+    --dark_: #5a6170;
+    --light: #ffffff;
+}
+
+
+
+body {
+    font-family: "Oswald", sans-serif;
+    color: var(--light);
+}
+
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-dark_ {
+    background-color: var(--dark_);
+}
+
+.form-control,
+.btn {
+    min-height: 3rem;
+    line-height: initial;
+}
+
+#emailHelp {
+    color: var(--light) !important;
+}
+
+/* modificación del tamaño de las imagenes */
+
+#tess {
+    max-width: 25%;
+    align-items: center;
+}
+
+
+
+.justify-content-center img {
+    display: block;
+    margin: auto;
+
+}
+
+.triangulo {
+    width: 30rem;
+    height: 30rem;
+    background: red;
+    position: absolute;
+
+}
+
+.triangulo1 {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to left, #0ea1e6, #1e67c7);
+    right: 10rem;
+    top: 10rem;
+    animation: t1 8s ease infinite;
+
+}
+
+.triangulo2 {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    top: 35rem;
+    animation: t2 9s ease infinite;
+}
+
+.triangulo3 {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(to left, #1b8fc5, #df0f8f);
+    left: 20rem;
+    animation: t3 7s ease infinite;
+
+}
+
+@keyframes t1 {
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+
+    50% {
+        transform: rotate(45deg) translateY(20px);
+    }
+
+    100% {
+        transform: rotate(45deg) translateY(0px);
+    }
+}
+
+@keyframes t2 {
+    0% {
+        transform: rotate(65deg) translateY(0px);
+    }
+
+    50% {
+        transform: rotate(65deg) translateY(20px);
+    }
+
+    100% {
+        transform: rotate(65deg) translateY(0px);
+    }
+}
+
+@keyframes t3 {
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+
+    50% {
+        transform: rotate(45deg) translateY(20px);
+    }
+
+    100% {
+        transform: rotate(45deg) translateY(0px);
+    }
+}

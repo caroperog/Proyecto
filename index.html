@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TESS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./img/favicon.ico.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary py-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">TESS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Inicia Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleCaptions" class="carousel slide m-0 " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="./img/scada.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <div class=" bg-dark bg-opacity-50 p-3 rounded text-center">
+                        <h5>Operación en Tiempo Real</h5>
+                        <p>Se centra en el monitoreo y control continuo de la red eléctrica, asegurando la
+                            estabilidad y
+                            eficiencia del suministro de energía. Los operadores aprenden a responder de manera
+                            efectiva
+                            a cambios en la demanda y emergencias para mantener el equilibrio entre la producción y
+                            el
+                            consumo de energía.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/subestacion electrica.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <div class="bg-dark bg-opacity-50 p-3 rounded text-center">
+                        <h5 class="fs-3">Operación de Subestaciones</h5>
+                        <p> Proporciona conocimientos técnicos sobre la gestión y el mantenimiento de estas
+                            instalaciones críticas. Los operadores se capacitan en técnicas de maniobra, diagnóstico
+                            de
+                            fallas, y mantenimiento preventivo y correctivo para garantizar la operación segura y
+                            eficaz
+                            de la subestación.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/regulación.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <div class="bg-dark bg-opacity-50 p-3 rounded text-center">
+                        <h5 class="fs-3">Regulación del Mercado Eléctrico</h5>
+                        <p>Prepara a los participantes para comprender y navegar por las complejidades del mercado
+                            eléctrico. Se enfoca en la legislación, las políticas y los mecanismos económicos que
+                            regulan la producción, distribución y venta de electricidad, promoviendo un
+                            entendimiento
+                            claro de cómo operan y se regulan estos mercados.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+
+        <div class="container mt-5 py-2 ">
+            <h2 class="text-center">Información</h2>
+            <div class="row d-flex justify-content-start">
+
+                <div class="col border m-2">Nuestros programas de capacitación están diseñados para proporcionar a los
+                    participantes una serie de beneficios tangibles que impactan tanto en su desarrollo profesional como
+                    en la eficiencia operativa de sus organizaciones. Al completar nuestros cursos, los participantes
+                    adquieren habilidades técnicas especializadas que les permiten gestionar de manera efectiva las
+                    complejidades de la red eléctrica.
+                </div>
+                <div class="col border m-2">Nuestros programas fomentan una cultura de seguridad en el trabajo,
+                    reduciendo
+                    el riesgo de incidentes y mejorando el bienestar del personal. Los participantes también
+                    experimentan un aumento en su confianza y satisfacción laboral, lo que contribuye a un ambiente de
+                    trabajo más positivo y productivo. La capacitación con nosotros no solo
+                    beneficia a los individuos, sino que también mejora la confiabilidad y eficiencia del sistema
+                    eléctrico.
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="container mt-5 py-2">
+            <div class="text-center">
+                <h2>Nuestros Cursos</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border">
+                        <img src="./img/regulación.jpg" class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Regulación del mercado</h5>
+                            <p class="card-text políticas">Legislación, políticas y economía en producción, distribución
+                                y venta eléctrica</p>
+                            <div class="text-center"><a href="#" class="btn btn-primary btn-lg">Aprender</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border">
+                        <img src="./img/scada.jpg" class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Operación en tiempo real</h5>
+                            <p class="card-text">Monitoreo, control y respuesta a emergencias para estabilidad y
+                                eficiencia energética</p>
+                            <div class="text-center"><a href="#" class="btn btn-primary btn-lg">Aprender</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card border">
+                        <img src="./img/subestacion electrica.jpg" class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Operación de subestaciones</h5>
+                            <p class="card-text">Monitoreo, control y respuesta a emergencias para estabilidad y
+                                eficiencia energética</p>
+                            <div class="text-center"><a href="#" class="btn btn-primary btn-lg">Aprender</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <hr class="featurette-divider ">
+
+    <!-- Primer bloque de featurette -->
+    <div class="container">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 align-self-center">
+                <h2 class="featurette-heading  fw-normal lh-1">Regulación del Mercado Eléctrico</h2>
+                <p class="lead ">Este curso ofrece una exploración exhaustiva de la regulación del mercado eléctrico,
+                    profundizando en la comprensión de la legislación, políticas y aspectos económicos que afectan la
+                    producción, distribución y venta de electricidad. Los participantes adquirirán competencias para
+                    analizar y aplicar regulaciones, evaluar el impacto de políticas en el mercado eléctrico y
+                    desarrollar estrategias para promover la eficiencia y equidad en el sector.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/regula.jpg" class="featurette-image img-fluid mx-auto" alt="Placeholder image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Segundo bloque de featurette -->
+    <div class="container">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2 align-self-center">
+                <h2 class="featurette-heading fw-normal lh-1">Operación en Tiempo Real</h2>
+                <p class="lead">En este curso, los participantes se sumergirán en el mundo dinámico de la operación en
+                    tiempo real de redes eléctricas. Aprenderán a monitorear y controlar la red eléctrica en tiempo
+                    real, utilizando sistemas de supervisión avanzados y herramientas de análisis de datos. Se
+                    desarrollarán competencias en gestión de crisis, toma de decisiones bajo presión y coordinación
+                    efectiva de equipos para garantizar la estabilidad y eficiencia del suministro de energía.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="./img/op_real.jpg" class="featurette-image img-fluid mx-auto" alt="Placeholder image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Tercer bloque de featurette -->
+    <div class="container">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-7 align-self-center">
+                <h2 class="featurette-heading fw-normal lh-1 ">Operación de Subestaciones</h2>
+                <p class="lead">Este curso se centra en el desarrollo de habilidades prácticas para la operación y
+                    mantenimiento de subestaciones eléctricas. Los participantes aprenderán técnicas avanzadas de
+                    maniobra segura, diagnóstico de fallas y procedimientos de mantenimiento preventivo y correctivo. Se
+                    les proporcionará un conocimiento detallado de los equipos y sistemas utilizados en las
+                    subestaciones, así como la capacidad de realizar análisis de riesgos y aplicar las mejores prácticas
+                    para garantizar la operación segura y eficiente de la infraestructura eléctrica.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/opse.jpg" class="featurette-image img-fluid mx-auto" alt="Placeholder image">
+            </div>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="text-uppercase">Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>Dirección: Medellin, Colombia</li>
+                        <li>Teléfono: +123456789</li>
+                        <li>Email: cesaralejandror.g@hotmail.com</li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="text-uppercase">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Redes sociales</h5>
+                    <div class="container">
+                        <a href="#"><i class="bi bi-facebook px-2"></i></a>
+                        <a href="#"><i class="bi bi-instagram px-2"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x px-2"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
